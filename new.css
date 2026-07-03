@@ -5,7 +5,7 @@ html, body {
 
 .page-center {
   display: flex;
-  border: black 1px solid;
+  /*border: black 1px solid;*/
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -14,12 +14,12 @@ html, body {
 
 .logo-center {
   display: inline-block;
-  border: green 1px solid;
+  /*border: green 1px solid;*/
 }
 
 .logo-center img {
   display: block;
-  border: red 1px solid;
+  /*border: red 1px solid;*/
   width: min(70vw, 500px);
   height: auto;
 }
