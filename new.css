@@ -14,6 +14,7 @@ html, body {
 
 .logo-center {
   display: inline-block;
+  transform: translateY(0);
   /*border: green 1px solid;*/
 }
 
@@ -22,4 +23,9 @@ html, body {
   /*border: red 1px solid;*/
   width: min(70vw, 500px);
   height: auto;
+}
+@media (max-width: 600px) {
+  .logo-center {
+        transform: translateY(-0.5in);
+    }
 }
