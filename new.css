@@ -15,7 +15,7 @@ html, body {
 .logo-center {
   display: inline-block;
   transform: translateY(0);
-  /*border: green 1px solid;*/
+  border: green 1px solid;
 }
 
 .logo-center img {
